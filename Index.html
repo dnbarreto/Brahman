@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnes Brahman | Proveedores Líderes de Carne de Res</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --brahman-red: #781e19;
+            --brahman-gold: #fab413;
+            --brahman-dark: #121212;
+        }
+        body { font-family: 'Montserrat', sans-serif; background-color: var(--brahman-dark); }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+        
+        .gold-gradient {
+            background: linear-gradient(135deg, #fab413 0%, #b8860b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-overlay {
+            background: linear-gradient(to bottom, rgba(18,18,18,0.8) 0%, rgba(18,18,18,0.4) 50%, rgba(18,18,18,1) 100%);
+        }
+        .btn-premium {
+            border: 1px solid var(--brahman-gold);
+            transition: all 0.4s ease;
+        }
+        .btn-premium:hover {
+            background-color: var(--brahman-gold);
+            color: black;
+            box-shadow: 0 0 20px rgba(250, 180, 19, 0.4);
+        }
+    </style>
+</head>
+<body class="text-white">
+
+    <nav class="absolute w-full z-50 py-8">
+        <div class="container mx-auto px-6 flex flex-col items-center">
+            <img src="logo-brahman.png" alt="Carnes Brahman Logo" class="h-32 md:h-40 mb-6 drop-shadow-2xl">
+            
+            <div class="flex space-x-8 text-xs tracking-[0.3em] uppercase font-light border-t border-white/10 pt-6">
+                <a href="#productos" class="hover:text-brahman-gold transition">Productos</a>
+                <a href="#distribucion" class="hover:text-brahman-gold transition">Distribución</a>
+                <a href="#contacto" class="hover:text-brahman-gold transition">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative h-screen flex items-center justify-center text-center">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=2000')] bg-cover bg-center">
+            <div class="absolute inset-0 hero-overlay"></div>
+        </div>
+        
+        <div class="relative z-10 px-4 mt-40">
+            <p class="text-brahman-gold tracking-[0.5em] uppercase text-sm mb-4 font-bold">Desde Bogotá para todo el país</p>
+            <h1 class="text-5xl md:text-8xl font-black mb-6 leading-tight">Proveedores líderes<br>de <span class="gold-gradient">carne de res</span></h1>
+            
+            <div class="flex flex-col md:flex-row justify-center gap-6 mt-12">
+                <a href="https://wa.me/573176699754" class="btn-premium px-12 py-4 text-xs font-bold tracking-[0.2em] uppercase">
+                    Hablar con un asesor
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="distribucion" class="py-32 bg-[#121212]">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-20 items-center">
+                <div>
+                    <h2 class="text-4xl md:text-5xl font-bold mb-8 leading-tight">Calidad que fortalece su negocio</h2>
+                    <p class="text-gray-400 text-lg leading-relaxed mb-8">
+                        En Carnes Brahman entendemos la exigencia de las carnicerías y restaurantes de Bogotá. No solo entregamos carne, entregamos el respaldo de una marca comprometida con la excelencia técnica y la tradición cárnica.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-center gap-3"><span class="text-brahman-gold">✔</span> Selección rigurosa de ganado</li>
+                        <li class="flex items-center gap-3"><span class="text-brahman-gold">✔</span> Procesos certificados de inocuidad</li>
+                        <li class="flex items-center gap-3"><span class="text-brahman-gold">✔</span> Distribución propia con cadena de frío</li>
+                    </ul>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-[#1a1a1a] p-8 border-l-2 border-brahman-red">
+                        <h4 class="text-3xl font-bold text-brahman-gold mb-2">100%</h4>
+                        <p class="text-xs uppercase tracking-widest text-gray-500">Res Seleccionada</p>
+                    </div>
+                    <div class="bg-[#1a1a1a] p-8 border-l-2 border-brahman-red">
+                        <h4 class="text-3xl font-bold text-brahman-gold mb-2">BOG</h4>
+                        <p class="text-xs uppercase tracking-widest text-gray-500">Sede Principal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="py-32 bg-[#0a0a0a] border-t border-white/5">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-16">Establezca una alianza comercial</h2>
+            
+            <div class="max-w-4xl mx-auto bg-[#161616] p-12 rounded-sm border border-white/5 shadow-2xl">
+                <div class="grid md:grid-cols-3 gap-12 text-center">
+                    <div>
+                        <p class="text-brahman-gold text-xs uppercase tracking-widest mb-4 font-bold">Dirección</p>
+                        <p class="text-sm">Av. Cali 15a 91<br>Bogotá, Colombia</p>
+                    </div>
+                    <div>
+                        <p class="text-brahman-gold text-xs uppercase tracking-widest mb-4 font-bold">Correo Electrónico</p>
+                        <p class="text-sm font-bold tracking-tight">cbrahman@gmail.com</p>
+                    </div>
+                    <div>
+                        <p class="text-brahman-gold text-xs uppercase tracking-widest mb-4 font-bold">Contacto Directo</p>
+                        <p class="text-sm">317 669 9754</p>
+                    </div>
+                </div>
+                
+                <div class="mt-16">
+                    <a href="mailto:cbrahman@gmail.com" class="bg-brahman-red text-white px-10 py-4 text-xs font-bold tracking-widest uppercase hover:bg-red-900 transition">
+                        Enviar Solicitud de Precios
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-white/5 text-center bg-black">
+        <img src="logo-brahman.png" alt="Logo" class="h-16 mx-auto mb-6 opacity-50">
+        <p class="text-[10px] tracking-[0.4em] text-gray-600 uppercase">&copy; 2024 Carnes Brahman - Calidad y Tradición</p>
+    </footer>
+
+</body>
+</html>
